@@ -1,0 +1,3 @@
+C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir
+C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

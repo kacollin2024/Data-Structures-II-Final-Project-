@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug",
+  "command": "C:\\Users\\sammy\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\Collens-Fiore.Walowski.Capstone.Stubs.cpp.obj -c C:\\Users\\sammy\\CLionProjects\\Collens-Fiore.Walowski.Capstone.Stubs\\Collens-Fiore.Walowski.Capstone.Stubs.cpp",
+  "file": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/Collens-Fiore.Walowski.Capstone.Stubs.cpp",
+  "output": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Collens-Fiore.Walowski.Capstone.Stubs.cpp.obj"
+},
+{
+  "directory": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug",
+  "command": "C:\\Users\\sammy\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\TheStackIn25Words.cpp.obj -c C:\\Users\\sammy\\CLionProjects\\Collens-Fiore.Walowski.Capstone.Stubs\\TheStackIn25Words.cpp",
+  "file": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/TheStackIn25Words.cpp",
+  "output": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/TheStackIn25Words.cpp.obj"
+},
+{
+  "directory": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug",
+  "command": "C:\\Users\\sammy\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\Node.cpp.obj -c C:\\Users\\sammy\\CLionProjects\\Collens-Fiore.Walowski.Capstone.Stubs\\Node.cpp",
+  "file": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/Node.cpp",
+  "output": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Node.cpp.obj"
+},
+{
+  "directory": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug",
+  "command": "C:\\Users\\sammy\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\Collens_Fiore_Walowski_Capstone_Stubs.dir\\Menu.cpp.obj -c C:\\Users\\sammy\\CLionProjects\\Collens-Fiore.Walowski.Capstone.Stubs\\Menu.cpp",
+  "file": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/Menu.cpp",
+  "output": "C:/Users/sammy/CLionProjects/Collens-Fiore.Walowski.Capstone.Stubs/cmake-build-debug/CMakeFiles/Collens_Fiore_Walowski_Capstone_Stubs.dir/Menu.cpp.obj"
+}
+]
