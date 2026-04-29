@@ -21,7 +21,7 @@ void Menu::addWordsToStack()
 
 		if (!words[n].empty())
 		{
-			if (wordstack.incrementCount(words[n]))
+			if (wordstack.Count(words[n]))
 			{
 				// word already exists, count was increased
 			}
@@ -65,7 +65,7 @@ void Menu::menu()
 			}
 			else
 			{
-				wordStack.displayAll();
+				wordStack.display();
 			}
 			break;
 		case '2':
@@ -89,7 +89,7 @@ void Menu::menu()
 			cout << "Enter a word to add: ";
 			string newWord;
 			getline(cin, newWord);
-			if (wordStack.incrementCount(newWord)) {
+			if (wordStack.Count(newWord)) {
 				cout << "Word already exists, count increased." << endl;
 			}
 			else {
@@ -105,5 +105,4 @@ void Menu::menu()
 		cout << endl;
 	}
 
-}
 }
