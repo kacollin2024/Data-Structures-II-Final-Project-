@@ -1,0 +1,20 @@
+// Requirements
+
+// Functional:
+
+// It should only add "push" Words to the top of the stack.
+// It should only remove "pop" words from the top of the stack.
+// If the stack is empty and a "pop" is tried, it should tell the user.
+// The App should use 25 most used words preloaded into the program
+
+// Non Functional:
+
+// This should be built using classes
+// It should use nodes to make a stack
+// Code should be readable and easy to work on
+// It should be able to handle 25 words
+// Stack operations "push and pop" should be fast and simple
+// It'll use console input and output to run.
+// Must be able to run
+// Consistent and clean code / no use of "can" functions
+// Memory should be deallocated as nodes are popped
