@@ -48,4 +48,58 @@ string TheStackIn25Words::pop()
     return word;
 }
 
+bool TheStackIn25Words::stackIsEmpty()
+{
+    return top == nullptr;
+}
 
+int TheStackIn25Words::getCount()
+{
+    return count;
+}
+
+bool TheStackIn25Words::search(string word)
+{
+    Node* current = top;
+    while (current != nullptr)
+    {
+        if (current->getData() == word)
+        {
+            return true;
+        }
+        current = current->getNext();
+    }
+    return false;
+}
+bool TheStackIn25Words::Count(string word)
+{
+    Node* current = top;
+    while (current != nullptr) {
+        if (current->getData() == word) {
+            current->wordCount++;
+            return true;
+        }
+        current = current->getNext();
+    }
+    return false;
+}
+
+void TheStackIn25Words::Display()
+{
+     Node* current = top;
+    while (current != nullptr)
+     {
+        cout << current->getData() << " (count: " << current->wordCount << ")" << endl;
+        current = current->getNext();
+    }
+}
+int TheStackIn25Words::getWordCount(string word) {
+    Node* current = top;
+    while (current != nullptr) {
+        if (current->getData() == word) {
+            return current->wordCount;
+        }
+        current = current->getNext();
+    }
+    return 0;
+}
