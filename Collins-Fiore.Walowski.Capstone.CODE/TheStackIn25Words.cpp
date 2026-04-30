@@ -65,7 +65,7 @@ bool TheStackIn25Words::search(string word) {
     return false;
 }
 
-bool TheStackIn25Words::Count(string word) {
+bool TheStackIn25Words::incrementCount(string word) {
     Node* current = top;
     while (current != nullptr) {
         if (current->getData() == word) {

@@ -13,15 +13,15 @@ Menu::~Menu()
 
 void Menu::addWordsToStack()
 {
-	for (int n = 0 < 25; n++)
-	{
-		string words[25] = { "The", "golden", "retriever", "bounded", "joyfully", "through", "the", "sun-dappled", "meadow,", "his",
+	string words[25] = { "The", "golden", "retriever", "bounded", "joyfully", "through", "the", "sun-dappled", "meadow,", "his",
 		"tail", "wagging", "furiously", "as", "he", "chased", "a", "bright", "red", "butterfly", "across", "the", "endless", "green", "field."
-		};
+	};
 
+	for (int n = 0; n < 25; n++)
+	{
 		if (!words[n].empty())
 		{
-			if (wordstack.Count(words[n]))
+			if (wordStack.incrementCount(words[n]))
 			{
 				// word already exists, count was increased
 			}
@@ -74,9 +74,9 @@ void Menu::menu()
 			string searchWord;
 			getline(cin, searchWord);
 			int wordResults = wordStack.getWordCount(searchWord);
-			if (result > 0)
+			if (wordResults > 0)
 			{
-				cout << "\"" << searchWord << "\" appeared " << result << " time(s)." << endl;
+				cout << "\"" << searchWord << "\" appeared " << wordResults << " time(s)." << endl;
 			}
 			else
 			{
@@ -89,7 +89,7 @@ void Menu::menu()
 			cout << "Enter a word to add: ";
 			string newWord;
 			getline(cin, newWord);
-			if (wordStack.Count(newWord)) {
+			if (wordStack.incrementCount(newWord)) {
 				cout << "Word already exists, count increased." << endl;
 			}
 			else {

@@ -20,7 +20,7 @@ public:
     int getCount();
     bool stackIsEmpty();
     bool search(string word);
-    bool Count(string word);
+    bool incrementCount(string word);
     void display();
     int getWordCount(string word);
 };
